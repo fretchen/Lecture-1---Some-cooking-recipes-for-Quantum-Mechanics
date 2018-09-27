@@ -33,7 +33,7 @@ In a \emph{measurement} , the possible outcomes are the eigenvalues $a_\alpha$ \
 The system will collapse to the corresponding eigenvector \index{eigenvector} and the probability of finding the system in state $\ket{\alpha}$ is
 
 \begin{align}
-	P(\ket{\alpha})=||\hat{P}_{\ket{\alpha}} \ket{\psi}|| = \bra{\psi} \hat{P}^{\dag}\hat{P}_{\ket{\alpha} \hat{P}_{\ket{\alpha} \ket{\psi},
+	P(\ket{\alpha})=||\hat{P}_{\ket{\alpha}} \ket{\psi}|| = \bra{\psi} \hat{P}^{\dag}\hat{P}_{\ket{\alpha}} \hat{P}_{\ket{\alpha}} \ket{\psi},
 \end{align}
 where $\hat{P}_{\ket{\alpha}}= \ket{\alpha} \bra{\alpha}$.
 
@@ -41,7 +41,7 @@ where $\hat{P}_{\ket{\alpha}}= \ket{\alpha} \bra{\alpha}$.
 
 \textbf{Schrödinger Equation.} The Schrödinger equation reads
 \begin{align}
-i\hbar\diffp{}{t}\ket{\psi(t)}=\hat{H}(t)\ket{\psi(t)}.
+i\hbar\partial_t\ket{\psi(t)}=\hat{H}(t)\ket{\psi(t)}.
 \end{align}
 In general, the Hamilton operator \index{Hamilton operator} $\hat{H}$ is time-dependent. For a time-independent Hamilton operator $\hat{H}$, we can find eigenstates $\ket{\phi_n}$ with corresponding eigenenergies $E_n$ \index{eigenenergy}:
 
