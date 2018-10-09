@@ -1,4 +1,28 @@
-\subsection{Entangled States}
+\subsection{Time Evolution}
+
+\textbf{Schrödinger Equation.} The Schrödinger equation reads
+\begin{align}
+i\hbar\partial_t\ket{\psi(t)}=\hat{H}(t)\ket{\psi(t)}.
+\end{align}
+In general, the Hamilton operator $\hat{H}$ is time-dependent. For a time-independent Hamilton operator $\hat{H}$, we can find eigenstates $\ket{\phi_n}$ with corresponding eigenenergies $E_n$ \index{eigenenergy}:
+
+\begin{align}
+\hat{H}\ket{\phi_n}=E_n\ket{\phi_n}.
+\end{align}
+The eigenstates $\ket{\phi_n}$ in turn have a simple time evolution:
+
+\begin{align}
+    \ket{\phi_n(t)}=\ket{\phi_n(0)}\cdot \exp{-i E_nt/\hbar}.
+\end{align}
+If we know the initial state of a system
+\begin{align}
+\ket{\psi(0)}=\sum_n \alpha_n\ket{\phi_n},
+\end{align}
+where $\alpha_n=\langle\phi_n | \psi(0)\rangle$, we will know the full dimension time evolution
+\begin{align}
+\ket{\psi(t)}=\sum_n\alpha_n\ket{\phi_n}\exp{-i E_n t/\hbar}. \;\, \text{(Schrödinger picture)}
+\end{align}
+\textbf{Note.} Sometimes it is beneficial to work in the Heisenberg picture, which works with static ket vectors $\ket{\psi}^{(H)}$ and incorporates the time evolution in the operators. \footnote{We will follow this route in the discussion of the two-level system and the Bloch sphere.}\subsection{Entangled States}
  
 			Consider a quantum system $S$ formed by two subsystems $S_1$ and $S_2$. For each of them we can write:
 
