@@ -22,52 +22,5 @@ where $\alpha_n=\langle\phi_n | \psi(0)\rangle$, we will know the full dimension
 \begin{align}
 \ket{\psi(t)}=\sum_n\alpha_n\ket{\phi_n}\exp{-i E_n t/\hbar}. \;\, \text{(Schrödinger picture)}
 \end{align}
-\textbf{Note.} Sometimes it is beneficial to work in the Heisenberg picture, which works with static ket vectors $\ket{\psi}^{(H)}$ and incorporates the time evolution in the operators. \footnote{We will follow this route in the discussion of the two-level system and the Bloch sphere.}\subsection{Entangled States}
- 
-			Consider a quantum system $S$ formed by two subsystems $S_1$ and $S_2$. For each of them we can write:
-
-\begin{align}
-				\ket{\psi_1}&=\sum_m^M a_m \ket{\alpha_m},\\
-				\ket{\psi_2}&=\sum_n^N b_n \ket{\beta_n}.
-			
-\end{align}
-			The question is now if it is always possible to write $\ket{\psi}$ in the form
-
-\begin{align}
- \label{eq:psientangled} 
-	\ket{\psi}	&=\ket{\psi_1}\otimes\ket{\psi_2}=\left(\sum_m^M a_m \ket{\alpha_m}\right) \otimes \left(\sum_n^N b_n \ket{\beta_n}\right)
-\end{align}
-\begin{align}
-\ket{\psi}	&=\sum_m^M \sum_n^N a_m b_n \ket{\alpha_m} \otimes \ket{\beta_n}. \label{eq:psientangled3} 
-\end{align}
-From \eqref{eq:psientangled3}, we see that the state $\ket{\psi}$ is determined by $M + N$ numbers. $\ket{\psi}$ can also have the form of a superposition
-
-\begin{align}
-\ket{\psi}=\sum_m^M \sum_n^N c_{mn}\ket{\alpha_m}\otimes \ket{\beta_n}.
-\end{align}
-Other than in \eqref{eq:psientangled3}, $\ket{\psi}$ is determined by $M \times N$ numbers $c_{mn}$ here. If we can not write $\ket{\psi}$ as in \eqref{eq:psientangled}, we call the state \emph{entangled} . Most states are entangled states. Equation \eqref{eq:psientangled} thus only describes a small subset of all possible states.
-
-\textbf{Example 1: Two Spins.}\label{sec:examplespin}  For a system of two spins we can construct the superposition state
-
-\begin{align}
-						\frac{1}{\sqrt{2}}(\ket{\uparrow}\otimes\ket{\downarrow}-\ket{\downarrow}\otimes\ket{\uparrow}).
-					
-\end{align}
-	The minus sign was arbitrarily chosen.
-					Note that the first spin has a Hilbert space different from the Hilbert space of the second spin!
-				\textbf{Example 2: Electron in a hydrogen atom.} We consider an electron orbiting around a proton. With the tensor product, we can connect the internal degree of freedom of the electron---given by its possible spin states---to its motional degree of freedom, which is characterized by the orbital quantum number $l$ and the magnetic quantum number $m_l$:
-
-\begin{align}
-						\left\{
-
-\begin{array}
-{c} \ket{\uparrow} \\ \ket{\downarrow} \end{array}
- \right\} \otimes \left\{
-
-\begin{array}
-{c} \ket{l=1,m_l=-1} \\ \ket{l=1,m_l=\enspace \; 0} \\ \ket{l=1,m_l=+1}  \end{array}
- \right\}
-					
-\end{align}
-Unlike \hyperref[sec:examplespin]{Example 1}, it is obvious here that the Hilbert spaces differ from each other.
+\textbf{Note.} Sometimes it is beneficial to work in the Heisenberg picture, which works with static ket vectors $\ket{\psi}^{(H)}$ and incorporates the time evolution in the operators. \footnote{We will follow this route in the discussion of the two-level system and the Bloch sphere.}
 
