@@ -1,14 +1,12 @@
 \section{Observables and Measurements}
+As much fun as it might be to manipulate a quantum state, we also have to measure it and how it connects to the properties of the system at hand. Any given physical quantity $A$ is associated with a Hermitian operator $\hat{A} = \hat{A}^\dag$ acting in the Hilbert space of the system, which we defined previously. Please be utterly aware that those Hermitian operators have absolutely no need to be unitary. However, any unitary operator might be written as $\hat{U}= e^{i\hat{A}}$.
 
-A given physical quantity $A$ is associated with a Hermitian operator $\hat{A}$ \index{Hermitian operator} acting in the Hilbert space \index{Hilbert space} of the system.
-In a \emph{measurement} , the possible outcomes are the eigenvalues $a_\alpha$ \index{eigenvalue} of the operator $\hat{A}$:
+In a \emph{measurement} , the possible outcomes are then the eigenvalues $a_\alpha$ \index{eigenvalue} of the operator $\hat{A}$:
 
 \begin{align}
-				\hat{A}\ket{\alpha}=a_{\alpha}\ket{\alpha}.
-			
+	\hat{A}\ket{\alpha}=a_{\alpha}\ket{\alpha}.
 \end{align}
-The system will collapse to the corresponding eigenvector \index{eigenvector} and the probability of finding the system in state $\ket{\alpha}$ is
-
+The system will collapse to the corresponding eigenvector and the probability of finding the system in state $\ket{\alpha}$ is
 \begin{align}
 	P(\ket{\alpha})=||\hat{P}_{\ket{\alpha}} \ket{\psi}||^2 = \bra{\psi} \hat{P}^{\dag}_{\ket{\alpha}} \hat{P}_{\ket{\alpha}} \ket{\psi},
 \end{align}
