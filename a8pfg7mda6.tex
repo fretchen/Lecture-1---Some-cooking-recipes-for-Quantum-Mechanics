@@ -4,18 +4,9 @@ It is actually quite rare that we can label the system with a single quantum num
 \item How many labels do we need for a system to fully determine its quantum state ?
 \item Once I know all the labels, how do I construct the full state out of them ?
 \end{enumerate}
-We will actually di
-\subsection{Complete Set of Commuting Observables}
+We will actually discuss the second question first as it sets the notation for the first question.
 
-A set of commuting operators $\{\hat{A},\hat{B},\hat{C},\cdots,\hat{X}\}$ is considered a complete set if their common eigenbasis is unique. Thus, the measurement of all quantities $\{A,B,\cdots,X\}$ will determine the system uniquely. The clean identification of such a Hilbert space can be quite challenging and a nice way of its measurment even more. Coming back to our previous examples:
 
-\begin{enumerate}
-\item Performing the full spectroscopy of the atom. Even for the hydrogen atom we will see that the full answer can be rather involved...
-\item The occupation number is rather straight forward. However, we have to be careful that we really collect a substantial amount of the photons etc.
-\item Are we able to measure the full position information ? What is the resolution of the detector and the point-spread function ?
-\item Here it is again rather clean to put a very efficient detector at the output of the two arms ...
-\item What are the components of the spin that we can access ? The $z$ component does not commute with the other components, so what should we measure ?
-\end{enumerate}
 
 \subsection{Entangled States}
  
@@ -50,7 +41,9 @@ Other than in \eqref{eq:psientangled3}, $\ket{\psi}$ is determined by $M \times 
 \end{align}
 	The minus sign was arbitrarily chosen.
 					Note that the first spin has a Hilbert space different from the Hilbert space of the second spin!
-				\textbf{Example 2: Electron in a hydrogen atom.} We consider an electron orbiting around a proton. With the tensor product, we can connect the internal degree of freedom of the electron---given by its possible spin states---to its motional degree of freedom, which is characterized by the orbital quantum number $l$ and the magnetic quantum number $m_l$:
+					
+					
+\textbf{Example 2: Electron in a hydrogen atom.} We consider an electron orbiting around a proton. With the tensor product, we can connect the internal degree of freedom of the electron---given by its possible spin states---to its motional degree of freedom, which is characterized by the orbital quantum number $l$ and the magnetic quantum number $m_l$:
 
 \begin{align}
 						\left\{
@@ -65,3 +58,15 @@ Other than in \eqref{eq:psientangled3}, $\ket{\psi}$ is determined by $M \times 
 					
 \end{align}
 Unlike \hyperref[sec:examplespin]{Example 1}, it is obvious here that the Hilbert spaces differ from each other.
+
+\subsection{Complete Set of Commuting Observables}
+
+A set of commuting operators $\{\hat{A},\hat{B},\hat{C},\cdots,\hat{X}\}$ is considered a complete set if their common eigenbasis is unique. Thus, the measurement of all quantities $\{A,B,\cdots,X\}$ will determine the system uniquely. The clean identification of such a Hilbert space can be quite challenging and a nice way of its measurment even more. Coming back to our previous examples:
+
+\begin{enumerate}
+\item Performing the full spectroscopy of the atom. Even for the hydrogen atom we will see that the full answer can be rather involved...
+\item The occupation number is rather straight forward. However, we have to be careful that we really collect a substantial amount of the photons etc.
+\item Are we able to measure the full position information ? What is the resolution of the detector and the point-spread function ?
+\item Here it is again rather clean to put a very efficient detector at the output of the two arms ...
+\item What are the components of the spin that we can access ? The $z$ component does not commute with the other components, so what should we measure ?
+\end{enumerate}
