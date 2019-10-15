@@ -3,7 +3,5 @@ untitled.tex
 k4ndv34qjsk.tex
 b9fq27k1cv8.tex
 5irh807te08.tex
-a8pfg7mda6.tex
-j3ti4qh5hm8.tex
 0agntbom5i.tex
 q7rpmdaqj4o.tex
